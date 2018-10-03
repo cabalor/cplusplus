@@ -10,6 +10,8 @@
 
 int main() {
 
+
+    std::cout << "poadj trzy liczby" << std::endl;
 	int jeden, dwa, trzy;
 
 	std::cin >> jeden >> dwa >> trzy;
@@ -85,12 +87,6 @@ int main() {
 			}
 			std::cout <<std::endl;
 		}
-
-
-
-	system("pause");
-
-
 }
 
 
