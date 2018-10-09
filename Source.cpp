@@ -3,7 +3,7 @@
 #include <cstdlib>
 
 
-#define GETMAX
+//#define GETMAX
 #define GETMIN
 
 
@@ -35,7 +35,7 @@ int main() {
 
 #if defined(GETMIN)
 
-		std::cout << "najwieksza liczba" << std::endl;
+		std::cout << "najmniejsza liczba" << std::endl;
 
 		int min = jeden;
 		if (dwa < min) min = dwa;
@@ -50,6 +50,7 @@ int main() {
 
 		std::cout << "------------ zadanie 3-----------------" << std::endl;
 
+		std::cout << "wpisz trzy liczby a wyrysuje gwiazdki" << std::endl;
 
 		int j, d, t;
 
