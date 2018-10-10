@@ -3,12 +3,14 @@
 #include <cstdlib>
 
 
-//#define GETMAX
-#define GETMIN
-
-
+#define GETMAX
+//#define GETMIN
 
 int main() {
+
+    #if !(defined(GETMAX) || defined(GETMIN))
+    #error zdefiniuj kraj
+    #endif
 
 
     std::cout << "poadj trzy liczby" << std::endl;
@@ -16,7 +18,7 @@ int main() {
 
 	std::cin >> jeden >> dwa >> trzy;
 
-	std::cout << "wyniki " << jeden << dwa << trzy << std::endl;
+	std::cout << "wyniki " << jeden<<" " << dwa << " "<<trzy << std::endl;
 
 
 #if defined(GETMAX)
