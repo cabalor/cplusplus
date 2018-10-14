@@ -19,16 +19,14 @@ int main() {
 	std::cout << "podaj wzrost" << std::endl;
 
 	std::cin >> wzrost;
-	if (wzrost > 1) {
+	/*if (wzrost > 1) {
 		wzrost /= 100;
-	}
+	}*/
 
 	bmi = waga / (wzrost * wzrost);
 
 
 	std::cout << bmi << std::endl;
 
-
-	system("pause");
 
 }
